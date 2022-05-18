@@ -1,0 +1,45 @@
+{
+  "name": "trayio-fe-test",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@material-ui/core": "^4.12.4",
+    "d3-scale": "^4.0.2",
+    "prop-types": "^15.8.1",
+    "react": "~16.9.0",
+    "react-d3-components": "^0.9.1",
+    "react-dom": "~16.9.0",
+    "react-icons": "~3.7.0",
+    "react-scripts": "~3.1.1",
+    "semantic-ui-react": "^2.1.2"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "test:debug": "react-scripts --inspect-brk test --runInBand --no-cache"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.5.5",
+    "@babel/preset-react": "^7.0.0",
+    "enzyme": "^3.10.0",
+    "enzyme-adapter-react-16": "^1.14.0",
+    "react-test-renderer": "^16.9.0"
+  }
+}
